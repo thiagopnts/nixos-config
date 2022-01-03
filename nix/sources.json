@@ -71,6 +71,18 @@
         "url": "https://github.com/NixOS/nixpkgs/archive/3b1789322fcbcb5cf51228d732752714f1bf77da.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nvim": {
+        "branch": "main",
+        "description": "Neovim (0.5+ only) configs",
+        "homepage": null,
+        "owner": "thiagopnts",
+        "repo": "nvim",
+        "rev": "9109d851d38a3644e9ca2c5fa46982cc5e16e2b3",
+        "sha256": "1dbxgvk3r22xdsy9ix4rw1y0xgcmgrrcdmazwmiphxl65hnjj4ra",
+        "type": "tarball",
+        "url": "https://github.com/thiagopnts/nvim/archive/9109d851d38a3644e9ca2c5fa46982cc5e16e2b3.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "nvim-lspconfig": {
         "branch": "master",
         "description": "Quickstart configurations for the Nvim LSP client",
