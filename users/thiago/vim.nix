@@ -38,9 +38,9 @@ let sources = import ../../nix/sources.nix; in rec {
       src = sources.vim-zig;
     };
 
-    dracula = vimUtils.buildVimPlugin {
-      name = "dracula";
-      src = sources.vim-dracula;
+    jellybeans = vimUtils.buildVimPlugin {
+      name = "jellybeans";
+      src = sources.jellybeans;
     };
 
     pigeon = vimUtils.buildVimPlugin {
