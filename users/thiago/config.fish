@@ -40,11 +40,6 @@ if not __ssh_agent_is_started
     __ssh_agent_start
 end
 
-#-------------------------------------------------------------------------------
-# Vim
-#-------------------------------------------------------------------------------
-# We should move this somewhere else but it works for now
-mkdir -p $HOME/.vim/{backup,swap,undo}
 
 #-------------------------------------------------------------------------------
 # Prompt
@@ -53,9 +48,6 @@ mkdir -p $HOME/.vim/{backup,swap,undo}
 set --universal --erase fish_greeting
 function fish_greeting; end
 funcsave fish_greeting
-
-# bobthefish theme
-set -g theme_color_scheme dracula
 
 # My color scheme
 set -U fish_color_normal normal
@@ -99,7 +91,7 @@ end
 # Vars
 #-------------------------------------------------------------------------------
 # Modify our path to include our Go binaries
-contains $HOME/code/go/bin $fish_user_paths; or set -Ua fish_user_paths $HOME/code/go/bin
+contains $HOME/go/bin $fish_user_paths; or set -Ua fish_user_paths $HOME/go/bin
 contains $HOME/bin $fish_user_paths; or set -Ua fish_user_paths $HOME/bin
 
 # Exported variables
