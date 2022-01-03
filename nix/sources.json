@@ -42,7 +42,7 @@
         "owner": "thiagopnts",
         "repo": "jellybeans",
         "rev": "5c63df78484220258115c5ccf09220a5b9a5b874",
-        "sha256": "1rp0zip0p07rbfiz8b5nvm6k1d80yvdgn4h59v3bg8j9qan7rg3h",
+        "sha256": "17jksrq4jwpns3mgk0kaj6hv9gich3avrwqxvga881cdwj79m0v9",
         "type": "tarball",
         "url": "https://github.com/thiagopnts/jellybeans/archive/5c63df78484220258115c5ccf09220a5b9a5b874.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"

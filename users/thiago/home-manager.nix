@@ -214,7 +214,6 @@ let sources = import ../../nix/sources.nix; in {
     package = pkgs.neovim-nightly;
 
     plugins = with pkgs; [
-      customVim.vim-cue
       customVim.vim-fish
       customVim.vim-fugitive
       customVim.vim-misc
@@ -223,6 +222,8 @@ let sources = import ../../nix/sources.nix; in {
       customVim.vim-zig
       customVim.pigeon
       customVim.AfterColors
+      customVim.jellybeans
+      customVim.nvim
 
       customVim.vim-nord
       customVim.nvim-lspconfig
