@@ -47,6 +47,18 @@
         "url": "https://github.com/thiagopnts/jellybeans/archive/5c63df78484220258115c5ccf09220a5b9a5b874.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "lush.nvim": {
+        "branch": "main",
+        "description": "Define Neovim themes as a DSL in lua, with real-time feedback.",
+        "homepage": "",
+        "owner": "rktjmp",
+        "repo": "lush.nvim",
+        "rev": "57e9f310b7ddde27664c3e1a5ec3517df235124b",
+        "sha256": "0y38id1dj15snx79sazh0kvs2c3jb1h6kyzr90zhm0130m7x6nri",
+        "type": "tarball",
+        "url": "https://github.com/rktjmp/lush.nvim/archive/57e9f310b7ddde27664c3e1a5ec3517df235124b.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
