@@ -35,6 +35,18 @@
         "url": "https://github.com/golang/go/archive/9b955d2d3fcff6a5bc8bce7bafdc4c634a28e95b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "jellybeans": {
+        "branch": "main",
+        "description": "Lush based colorscheme for NeoVim",
+        "homepage": "https://github.com/thiagopnts/jellybeans",
+        "owner": "thiagopnts",
+        "repo": "jellybeans",
+        "rev": "5c63df78484220258115c5ccf09220a5b9a5b874",
+        "sha256": "1rp0zip0p07rbfiz8b5nvm6k1d80yvdgn4h59v3bg8j9qan7rg3h",
+        "type": "tarball",
+        "url": "https://github.com/thiagopnts/jellybeans/archive/5c63df78484220258115c5ccf09220a5b9a5b874.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
@@ -119,6 +131,18 @@
         "url": "https://github.com/buildpacks/pack/archive/2cf2c3442f574a2239ea3ee17aad7058fefe5410.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "packer.nvim": {
+        "branch": "master",
+        "description": "A use-package inspired plugin manager for Neovim. Uses native packages, supports Luarocks dependencies, written in Lua, allows for expressive config",
+        "homepage": "",
+        "owner": "wbthomason",
+        "repo": "packer.nvim",
+        "rev": "851c62c5ecd3b5adc91665feda8f977e104162a5",
+        "sha256": "1d5zydsxgf8jfl1jy0l1w3xyz57a0p1irmc6d4l0d3wcbr5gbw5r",
+        "type": "tarball",
+        "url": "https://github.com/wbthomason/packer.nvim/archive/851c62c5ecd3b5adc91665feda8f977e104162a5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "theme-bobthefish": {
         "branch": "master",
         "description": "A Powerline-style, Git-aware fish theme optimized for awesome.",
@@ -165,18 +189,6 @@
         "sha256": "001y2z2683fagryqj5f0gs3rcgx2nbw3x3r9afydhss80ihb8zvi",
         "type": "tarball",
         "url": "https://github.com/mitchellh/tree-sitter-proto/archive/42d82fa18f8afe59b5fc0b16c207ee4f84cb185f.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "jellybeans": {
-        "branch": "main",
-        "description": "Lush based colorscheme for NeoVim",
-        "homepage": "https://github.com/thiagopnts/jellybeans",
-        "owner": "thiagopnts",
-        "repo": "jellybeans",
-        "rev": "5c63df78484220258115c5ccf09220a5b9a5b874",
-        "sha256": "1rp0zip0p07rbfiz8b5nvm6k1d80yvdgn4h59v3bg8j9qan7rg3h",
-        "type": "tarball",
-        "url": "https://github.com/thiagopnts/jellybeans/archive/5c63df78484220258115c5ccf09220a5b9a5b874.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-fish": {
